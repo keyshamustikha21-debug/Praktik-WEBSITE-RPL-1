@@ -21,6 +21,12 @@
             <h2>Profil Siswa</h2>
             <p>Selamat datang di halaman utama.</p>
         </div>
+
+        <section>
+            <article id="kotak-pesan">
+                <p id="pesanStatus">Sedang Memuat...</p>
+            </article>
+        </section>
     </main>
 
     <footer>
@@ -28,8 +34,8 @@
     </footer>
 
     <script>
-        document.getElementById("judulUtama").innerText =
-            "Selamat Datang Siswa.";
+        document.getElementById("judulUtama").textContent ="Selamat Datang Siswa.";
+        document.getElementById("pesanStatus").textContent ="Data Berhasil Disimpan.";
     </script>
 
 </body>
